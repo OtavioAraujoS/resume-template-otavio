@@ -1,6 +1,6 @@
 % GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
 % Copyright © 2025 Celio B Junior. All rights reserved.
-% 
+%
 % Licensed under the Apache License, Version 2.0 (the "License");
 % you may not use this file except in compliance with the License.
 % You may obtain a copy of the License at
@@ -48,8 +48,8 @@
 
 % --- CONFIGURAÇÃO: METADADOS / LINKS ---
 \hypersetup{
-    pdftitle={CV Seu Nome},   % Título do PDF
-    pdfauthor={Seu Nome},     % Autor do PDF
+    pdftitle={CV Otávio Araujo},   % Título do PDF
+    pdfauthor={Otávio Araujo},     % Autor do PDF
     colorlinks=true,          % Usa cor nos links (sem caixa)
     linkcolor=black,          % Cor de links internos
     urlcolor=black,           % Cor de URLs
@@ -69,6 +69,7 @@
 {}
 {0em}
 {}
+\titlespacing*{\section}{0pt}{0.7em}{0.25em}
 \titlespacing*{\subsection}{0pt}{0.35em}{0.15em}
 
 % Macro para entradas do currículo com bookmark no PDF
@@ -87,76 +88,99 @@
 \begin{document}
 
 % --- CABEÇALHO ---
-% Substitua por suas informações pessoais
 \begin{center}
-    {\LARGE \textbf{Nome Completo}} 
+    {\LARGE \textbf{Otávio Araujo}}
     \\ [0.1cm]
-    Cidade, Estado
+    Belém, Pará
     {\textbullet}
-    \href{mailto:seu.email@exemplo.com}{seu.email@exemplo.com} 
+    \href{mailto:otaviodev08@gmail.com}{otaviodev08@gmail.com}
     {\textbullet}
-    \href{https://linkedin.com/in/usuario}{linkedin.com/in/usuario} 
+    \href{https://linkedin.com/in/otávio-araujo-77474b1ab}{linkedin.com/in/otávio-araujo-77474b1ab}
     {\textbullet}
-    \href{https://github.com/usuario}{github.com/usuario}
+    \href{https://github.com/OtavioAraujoS}{github.com/OtavioAraujoS}
 \end{center}
 
 % --- SEÇÕES ---
 
-\section{Atividades de Liderança}
-    % Inclua trabalho voluntário, ligas acadêmicas ou cargos de liderança
-    \cventry{Nome da Empresa/Organização}{Localização (ex: Remoto ou Estado, País)}{Seu Cargo/Posição}{Data de Início - Data de Término (ex: Jan 2024 - Atual)}
-        \begin{itemize}
-            % Use verbos de ação do README - quantifique seu impacto quando possível
-            \item Descreva uma conquista significativa de liderança com métricas específicas.
-            \item Destaque como você gerenciou equipes, liderou iniciativas ou impulsionou resultados.
-            \item Mostre impacto na organização ou comunidade que você serviu.
-        \end{itemize}
-
-% ------
-
 \section{Experiência}
-    % Liste suas experiências profissionais ou acadêmicas, da mais recente para a mais antiga
-    \cventry{Nome da Empresa/Organização}{Localização (ex: Remoto ou Estado, País)}{Cargo (ex: Engenheiro de Software, Analista de Dados)}{Data de Início - Data de Término}
+    \cventry{Deskcorp}{Belém, Brasil}{Arquiteto de Soluções}{Julho de 2026 -- Atualmente}
         \begin{itemize}
-            % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
-            \item Alcancei [resultado específico] através de [ação tomada], resultando em [impacto quantificado].
-            \item Desenvolvi/Construí/Criei [o que você fez] usando [tecnologias/métodos], resultando em [benefício].
-            \item Colaborei com [tamanho/tipo da equipe] para [alcançar o quê], melhorando [métrica] em [porcentagem/quantidade].
+            \item Desenhei arquiteturas de software e modelei processos de negócio utilizando Bizagi e draw.io, elaborando diagramas de solução, classes e objetos para traduzir requisitos complexos em visões técnicas claras para os times de desenvolvimento.
+            \item Atuei como facilitador entre áreas técnicas e de negócios, conduzindo reuniões com times multidisciplinares para levantar requisitos, definir arquiteturas e refinar regras de negócio.
+            \item Mapeei e gerenciei riscos operacionais e tecnológicos, desenvolvendo estratégias de mitigação e planos de contingência para aumentar a resiliência, a segurança e a estabilidade das entregas.
+            \item Administrei identidades e acessos (IAM) em múltiplas plataformas, garantindo o provisionamento seguro de clientes conforme as políticas de conformidade e segurança da informação.
+            \item Gerenciei o ciclo de vida da documentação técnica e dos projetos, estruturando e padronizando os artefatos de entrega para assegurar governança, rastreabilidade e alinhamento com o escopo aprovado.
+            \item Facilitei a comunicação em projetos internacionais, atuando como ponte linguística e técnica em reuniões multiculturais para alinhar expectativas e objetivos entre stakeholders globais.
+            \item Monitorei logs, métricas e a saúde de pods utilizando Datadog e OpenShift, identificando anomalias e apoiando a análise de incidentes para aumentar a observabilidade e a confiabilidade dos ambientes.
         \end{itemize}
 
-    \cventry{Nome da Empresa/Organização}{Localização (ex: Remoto ou Estado, País)}{Cargo (ex: Desenvolvedor Júnior, Assistente de Pesquisa)}{Data de Início - Data de Término}
+    \cventry{Deskcorp}{Belém, Brasil}{Analista de Testes (QA)}{Maio de 2026 -- Julho de 2026}
         \begin{itemize}
-            \item Use verbos ativos da tabela de verbos de ação no README.md
-            \item Quantifique suas conquistas sempre que possível (números, porcentagens, prazos)
-            \item Mostre progressão e responsabilidade crescente entre os cargos
+            \item Defini estratégias de testes baseadas em risco, estruturando a pirâmide de testes, os critérios de aceite e os cenários de regressão para priorizar funcionalidades críticas e antecipar falhas no ciclo de desenvolvimento.
+            \item Implementei e mantive uma suíte abrangente de testes unitários, de integração e de ponta a ponta utilizando TypeScript, Jest e Testing Library, aplicando mocks, fixtures e dados de teste reutilizáveis para ampliar a cobertura e a confiabilidade das aplicações.
+            \item Desenvolvi cenários avançados de testes de performance, incluindo carga, estresse, spike e smoke, utilizando k6 e critérios de aprovação baseados em tempo de resposta, taxa de erros e throughput para identificar gargalos e validar a escalabilidade do sistema.
+            \item Mapeei as especificações de negócio e os cenários de validação por meio de uma Matriz de Rastreabilidade de Requisitos e Testes, assegurando a cobertura dos critérios de aceite e das funcionalidades críticas.
+            \item Automatizei a esteira de testes utilizando Node.js e integração contínua, configurando quality gates, relatórios de execução e validações de regressão para reduzir o esforço manual e acelerar entregas seguras.
+            \item Analisei resultados e indicadores de qualidade, conduzindo a triagem de defeitos, a investigação de causa raiz e o tratamento de testes instáveis para promover melhorias contínuas no processo de desenvolvimento.
         \end{itemize}
 
-    \cventry{Universidade/Instituição de Pesquisa}{Localização (ex: Remoto ou Estado, País)}{Função (ex: Pesquisador de Graduação, Monitor)}{Data de Início - Data de Término}
+    \cventry{Defensoria Pública do Estado do Pará}{Belém, Brasil}{Analista de Sistemas}{Agosto de 2024 -- Maio de 2026}
         \begin{itemize}
-            \item Inclua pesquisa, trabalho acadêmico ou projetos que demonstrem habilidades técnicas
-            \item Destaque publicações, apresentações ou descobertas significativas
+            \item Construí aplicações web otimizadas utilizando React, Next.js e Tailwind CSS, implementando renderização híbrida e estilos utilitários que melhoraram a velocidade de carregamento e os índices de Core Web Vitals.
+            \item Otimizei o código dos sistemas aplicando os princípios SOLID e a estratégia DRY, eliminando redundâncias e reduzindo em 70\% o tempo de processamento das pipelines.
+            \item Colaborei com uma equipe ágil na implementação de uma cobertura de testes robusta utilizando Jest e React Testing Library, melhorando a estabilidade do sistema e reduzindo em 40\% a incidência de bugs em produção.
+            \item Coordenei o planejamento de sprints e o acompanhamento de metas em equipes multidisciplinares, utilizando ferramentas ágeis para garantir transparência e alinhamento com os prazos acordados junto aos stakeholders.
+            \item Gerenciei o versionamento de código e os processos de code review via GitLab, aumentando a qualidade técnica das entregas e promovendo um ambiente de desenvolvimento mais colaborativo e seguro.
+            \item Implementei a conteinerização da aplicação utilizando Docker e Docker Compose, padronizando os ambientes de desenvolvimento e reduzindo o tempo de configuração de novas máquinas.
+        \end{itemize}
+
+    \newpage
+    \setlist[itemize]{itemsep=0em, topsep=0.1em}
+
+    \cventry{Freelancer}{Remoto}{Desenvolvedor Full Stack}{Junho de 2023 -- Agosto de 2024}
+        \begin{itemize}
+            \item Implementei sistemas de design escaláveis utilizando React e Shadcn, garantindo consistência visual e facilitando a manutenção de estilos complexos com Styled Components.
+            \item Estruturei a arquitetura de serviços e controladores com NestJS, padronizando os endpoints e facilitando a integração entre frontend e backend por meio de uma API bem definida.
+            \item Desenvolvi o armazenamento de dados utilizando MongoDB, permitindo um fluxo de informações dinâmico e sem restrições de esquema, com integração fluida entre o backend em Node.js e o banco de dados.
+            \item Implementei testes unitários utilizando Jest e React Testing Library, aumentando a confiabilidade dos componentes e facilitando a identificação de falhas durante o desenvolvimento.
+            \item Desenvolvi testes de integração e de ponta a ponta utilizando Selenium, validando os principais fluxos da aplicação e reduzindo o risco de regressões entre os sistemas.
+            \item Implementei smoke tests para verificar rapidamente as funcionalidades críticas após novas versões, facilitando a identificação antecipada de falhas nas entregas.
+            \item Gerenciei a infraestrutura e o deploy da aplicação na plataforma Render, reduzindo em 50\% os custos mensais de hospedagem sem comprometer a performance e a disponibilidade do sistema.
+        \end{itemize}
+
+    \cventry{Frexco Alimentos}{Remoto}{Desenvolvedor Full Stack}{Maio de 2022 -- Junho de 2023}
+        \begin{itemize}
+            \item Arquitetei sistemas web escaláveis utilizando TypeScript, React.js e Material UI, garantindo consistência visual e reutilização de componentes, o que tornou a manutenção mais ágil.
+            \item Implementei e mantive serviços independentes utilizando Flask e Django, garantindo uma integração eficiente entre sistemas e reduzindo o tempo de resposta do servidor.
+            \item Implementei testes unitários utilizando Jest e React Testing Library, ampliando a cobertura dos componentes e contribuindo para maior estabilidade nas entregas.
+            \item Colaborei com times interdisciplinares utilizando Jira e metodologias ágeis, contribuindo para a entrega das sprints dentro dos prazos e para maior transparência no progresso dos projetos.
+        \end{itemize}
+
+    \cventry{Cs - Consoft}{Belém, Brasil}{Desenvolvedor Full Stack}{Outubro de 2021 -- Março de 2022}
+        \begin{itemize}
+            \item Desenvolvi APIs REST utilizando Django REST Framework, garantindo integração eficiente entre sistemas e melhorando a performance das aplicações.
+            \item Documentei APIs com DRF-YASG, promovendo clareza e padronização e facilitando a manutenção e a integração dos serviços.
+            \item Criei interfaces web responsivas e interativas utilizando Vue.js e Quasar, aplicando boas práticas de experiência do usuário e garantindo consistência visual em diferentes dispositivos.
+            \item Colaborei com times interdisciplinares no alinhamento de requisitos e na implementação de soluções, contribuindo para a qualidade das entregas entre as diferentes áreas.
+            \item Gerenciei tarefas e sprints ágeis utilizando Trello e Jira, garantindo organização, priorização das demandas e cumprimento dos prazos estabelecidos.
         \end{itemize}
 
 % ------
 
 \section{Habilidades}
-    % Mantenha esta seção concisa e use o máximo de palavras-chave
-    % que fazem sentido para a vaga que você deseja.
-    \begin{itemize}
-        \item \textbf{Técnicas:} Liste suas linguagens de programação, frameworks, ferramentas e metodologias
-        \item \textbf{Idiomas:} Português (Nativo), Inglês (Nível de Proficiência), Terceiro Idioma (Nível de Proficiência)
+    {\footnotesize
+    \begin{itemize}[itemsep=0.1em, topsep=0.15em]
+        \item \textbf{Desenvolvimento:} TypeScript, JavaScript, Python, React, Vue.js, Next.js, Vite, Vuetify, Quasar, Tailwind CSS, Material UI, Styled Components, Shadcn, Node.js, NestJS, Django, Django REST Framework, Flask, APIs REST, DRF-YASG, MongoDB e MySQL
+        \item \textbf{Testes e Qualidade:} Jest, Vitest, Testing Library, React Testing Library, Selenium, k6, testes unitários, de integração, E2E e de performance, smoke tests, automação de testes, quality gates, testes baseados em risco, rastreabilidade e análise de causa raiz
+        \item \textbf{Arquitetura e Governança:} Arquitetura de Soluções, modelagem de processos, Bizagi, draw.io, IAM, levantamento de requisitos, gestão de riscos e documentação técnica
+        \item \textbf{DevOps e Gestão:} Git, GitHub, GitLab, Docker, Docker Compose, CI/CD, Render, Jira, Trello, OpenProject e metodologias ágeis
+        \item \textbf{Idiomas:} Português (Nativo), Inglês (Avançado), Espanhol (Intermediário)
     \end{itemize}
+    }
 
 % ------
 
-% !!!!!!!!!!!!!!!!!!!!!!
-% Mude esta seção para o começo, depois do cabeçalho e antes
-% das suas experiências se você está procurando sua primeira
-% vaga ou algum estágio. Do contrário, deixe como está.
-% !!!!!!!!!!!!!!!!!!!!!!
-
 \section{Educação}
-    % Formação mais recente primeiro
-    \cventry{Nome da Sua Universidade}{Localização (ex: Remoto ou Estado, País)}{Título do Seu Curso (ex: Bacharelado em Ciência da Computação)}{Data de Início - Data de Término (ex: Jan 2020 - Dez 2024)}
+    \cventry{Cesupa}{Belém, Brasil}{Bacharel em Ciências da Computação}{Janeiro de 2019 -- Dezembro de 2022}
 
 \end{document}
