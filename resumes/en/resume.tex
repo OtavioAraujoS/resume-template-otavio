@@ -1,6 +1,6 @@
 % GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
 % Copyright © 2025 Celio B Junior. All rights reserved.
-% 
+%
 % Licensed under the Apache License, Version 2.0 (the "License");
 % you may not use this file except in compliance with the License.
 % You may obtain a copy of the License at
@@ -39,7 +39,7 @@
     leftmargin=0.75em, % List indentation (closer to page margin)
     itemsep=0.2em,     % Space between items
     topsep=0.25em,     % Space before/after list
-    parsep=0em,        % Space between paragraphs in same item
+    parsep=0em,        % Space between paragraphs in the same item
     partopsep=0em      % Extra spacing at list start
 }
 
@@ -48,13 +48,13 @@
 
 % --- SETTINGS: METADATA / LINKS ---
 \hypersetup{
-    pdftitle={CV Your Name},   % PDF title
-    pdfauthor={Your Name},     % PDF author
-    colorlinks=true,           % Uses colored links (no boxes)
-    linkcolor=black,           % Internal links color
-    urlcolor=black,            % URLs color
-    citecolor=black,           % Citations color
-    bookmarksdepth=2           % Sidebar: section and subsection
+    pdftitle={CV Otávio Araujo}, % PDF title
+    pdfauthor={Otávio Araujo},   % PDF author
+    colorlinks=true,             % Uses colored links (no boxes)
+    linkcolor=black,             % Internal links color
+    urlcolor=black,              % URLs color
+    citecolor=black,             % Citations color
+    bookmarksdepth=2             % Sidebar: section and subsection
 }
 
 % --- SETTINGS: TITLES ---
@@ -69,9 +69,10 @@
 {}
 {0em}
 {}
+\titlespacing*{\section}{0pt}{0.7em}{0.25em}
 \titlespacing*{\subsection}{0pt}{0.35em}{0.15em}
 
-% Macro for resume entries with PDF bookmark
+% Macro for resume entries with PDF bookmarks
 \newcounter{cventry}
 \newcommand{\cventry}[4]{%
     \refstepcounter{cventry}%
@@ -87,76 +88,99 @@
 \begin{document}
 
 % --- HEADER ---
-% Replace with your personal information
 \begin{center}
-    {\LARGE \textbf{Full Name}} 
+    {\LARGE \textbf{Otávio Araujo}}
     \\ [0.1cm]
-    City, State
+    Belém, Pará, Brazil
     {\textbullet}
-    \href{mailto:your.email@example.com}{your.email@example.com} 
+    \href{mailto:otaviodev08@gmail.com}{otaviodev08@gmail.com}
     {\textbullet}
-    \href{https://linkedin.com/in/username}{linkedin.com/in/username} 
+    \href{https://linkedin.com/in/otávio-araujo-77474b1ab}{linkedin.com/in/otávio-araujo-77474b1ab}
     {\textbullet}
-    \href{https://github.com/username}{github.com/username}
+    \href{https://github.com/OtavioAraujoS}{github.com/OtavioAraujoS}
 \end{center}
 
 % --- SECTIONS ---
 
-\section{Leadership Activities}
-    % Include volunteer work, academic clubs, or leadership positions
-    \cventry{Company/Organization Name}{Location (e.g., Remote or State, Country)}{Your Role/Position}{Start Date - End Date (e.g., Jan 2024 - Present)}
-        \begin{itemize}
-            % Use action verbs from README - quantify your impact whenever possible
-            \item Describe a meaningful leadership achievement with specific metrics.
-            \item Highlight how you managed teams, led initiatives, or drove outcomes.
-            \item Show impact on the organization or community you served.
-        \end{itemize}
-
-% ------
-
 \section{Experience}
-    % List your professional or academic experiences, most recent first
-    \cventry{Company/Organization Name}{Location (e.g., Remote or State, Country)}{Role (e.g., Software Engineer, Data Analyst)}{Start Date - End Date}
+    \cventry{Deskcorp}{Belém, Brazil}{Solutions Architect}{July 2026 -- Present}
         \begin{itemize}
-            % Focus on achievements, not only technical details - use the STAR method (Situation, Task, Action, Result)
-            \item Achieved [specific result] through [action taken], resulting in [quantified impact].
-            \item Developed/Built/Created [what you did] using [technologies/methods], resulting in [benefit].
-            \item Collaborated with [team size/type] to [accomplish what], improving [metric] by [percentage/amount].
+            \item Designed software architectures and modeled business processes using Bizagi and draw.io, producing solution, class, and object diagrams to translate complex requirements into clear technical views for development teams.
+            \item Served as a liaison between technical and business areas, facilitating cross-functional meetings to gather requirements, define architectures, and refine business rules.
+            \item Identified and managed operational and technology risks, developing mitigation strategies and contingency plans to improve the resilience, security, and stability of deliverables.
+            \item Administered identity and access management (IAM) across multiple platforms, ensuring secure client provisioning in accordance with compliance and information security policies.
+            \item Managed the lifecycle of technical and project documentation, structuring and standardizing deliverables to ensure governance, traceability, and alignment with the approved scope.
+            \item Facilitated communication in international projects, bridging language and technical gaps during multicultural meetings to align expectations and objectives among global stakeholders.
+            \item Monitored logs, metrics, and pod health using Datadog and OpenShift, detecting anomalies and supporting incident analysis to improve environment observability and reliability.
         \end{itemize}
 
-    \cventry{Company/Organization Name}{Location (e.g., Remote or State, Country)}{Role (e.g., Junior Developer, Research Assistant)}{Start Date - End Date}
+    \cventry{Deskcorp}{Belém, Brazil}{Quality Assurance Analyst (QA)}{May 2026 -- July 2026}
         \begin{itemize}
-            \item Use active verbs from the action verbs table in README.md
-            \item Quantify your achievements whenever possible (numbers, percentages, deadlines)
-            \item Show progression and increasing responsibility across roles
+            \item Defined risk-based testing strategies, structuring the test pyramid, acceptance criteria, and regression scenarios to prioritize critical features and identify defects earlier in the development lifecycle.
+            \item Developed and maintained a comprehensive suite of unit, integration, and end-to-end tests using TypeScript, Jest, and Testing Library, applying mocks, fixtures, and reusable test data to increase coverage and application reliability.
+            \item Designed advanced load, stress, spike, and smoke performance tests using k6, with pass/fail thresholds based on response time, error rate, and throughput to identify bottlenecks and validate system scalability.
+            \item Mapped business specifications to validation scenarios through a Requirements-to-Test Traceability Matrix, ensuring coverage of acceptance criteria and critical functionality.
+            \item Automated the test pipeline using Node.js and continuous integration, configuring quality gates, execution reports, and regression checks to reduce manual effort and accelerate reliable releases.
+            \item Analyzed test results and quality metrics, leading defect triage, root cause analysis, and flaky test remediation to drive continuous improvement across the development process.
         \end{itemize}
 
-    \cventry{University/Research Institution}{Location (e.g., Remote or State, Country)}{Role (e.g., Undergraduate Researcher, Teaching Assistant)}{Start Date - End Date}
+    \cventry{Pará State Public Defender's Office}{Belém, Brazil}{Systems Analyst}{August 2024 -- May 2026}
         \begin{itemize}
-            \item Include research, academic work, or projects that demonstrate technical skills
-            \item Highlight publications, presentations, or meaningful findings
+            \item Built optimized web applications using React, Next.js, and Tailwind CSS, implementing hybrid rendering and utility-first styling to improve loading speed and Core Web Vitals scores.
+            \item Optimized system code by applying SOLID principles and the DRY approach, eliminating redundancies and reducing pipeline processing time by 70\%.
+            \item Collaborated with an Agile team to implement robust test coverage using Jest and React Testing Library, improving system stability and reducing production defects by 40\%.
+            \item Coordinated sprint planning and goal tracking across cross-functional teams, using Agile tools to maintain transparency and alignment with stakeholder deadlines.
+            \item Managed source control and code review workflows through GitLab, improving the technical quality of deliverables and fostering a more collaborative and secure development environment.
+            \item Containerized the application using Docker and Docker Compose, standardizing development environments and reducing setup time for new machines.
+        \end{itemize}
+
+    \newpage
+    \setlist[itemize]{itemsep=0em, topsep=0.1em}
+
+    \cventry{Freelance}{Remote}{Full Stack Developer}{June 2023 -- August 2024}
+        \begin{itemize}
+            \item Implemented scalable design systems using React and shadcn/ui, ensuring visual consistency and simplifying the maintenance of complex styles with Styled Components.
+            \item Structured service and controller architecture with NestJS, standardizing endpoints and streamlining frontend-backend integration through a well-defined API.
+            \item Developed the data persistence layer using MongoDB, enabling flexible data flows and seamless integration between the Node.js backend and the database.
+            \item Implemented unit tests using Jest and React Testing Library, increasing component reliability and enabling earlier defect detection during development.
+            \item Developed integration and end-to-end tests using Selenium, validating critical application flows and reducing the risk of regressions across systems.
+            \item Implemented smoke tests to rapidly validate critical functionality after releases, enabling earlier detection of deployment issues.
+            \item Managed application infrastructure and deployment on Render, reducing monthly hosting costs by 50\% without compromising performance or availability.
+        \end{itemize}
+
+    \cventry{Frexco Alimentos}{Remote}{Full Stack Developer}{May 2022 -- June 2023}
+        \begin{itemize}
+            \item Architected scalable web applications using TypeScript, React.js, and Material UI, ensuring visual consistency and component reuse while streamlining maintenance.
+            \item Implemented and maintained independent services using Flask and Django, enabling efficient system integration and reducing server response times.
+            \item Implemented unit tests using Jest and React Testing Library, expanding component coverage and improving release stability.
+            \item Collaborated with cross-functional teams using Jira and Agile methodologies, supporting on-time sprint delivery and improving project transparency.
+        \end{itemize}
+
+    \cventry{CS - Consoft}{Belém, Brazil}{Full Stack Developer}{October 2021 -- March 2022}
+        \begin{itemize}
+            \item Developed REST APIs using Django REST Framework, enabling efficient system integration and improving application performance.
+            \item Documented APIs using drf-yasg, improving clarity and standardization while simplifying service maintenance and integration.
+            \item Built responsive and interactive web interfaces using Vue.js and Quasar, applying user experience and responsive design best practices to ensure visual consistency across devices.
+            \item Collaborated with cross-functional teams to align requirements and implement solutions, contributing to consistent, high-quality deliverables across business areas.
+            \item Managed tasks and Agile sprints using Trello and Jira, ensuring organization, effective prioritization, and on-time delivery.
         \end{itemize}
 
 % ------
 
 \section{Skills}
-    % Keep this section concise and use as many keywords as possible
-    % that are relevant to the role you want.
-    \begin{itemize}
-        \item \textbf{Technical:} List your programming languages, frameworks, tools, and methodologies
-        \item \textbf{Languages:} Portuguese (Native), English (Proficiency Level), Third Language (Proficiency Level)
+    {\footnotesize
+    \begin{itemize}[itemsep=0.1em, topsep=0.15em]
+        \item \textbf{Development:} TypeScript, JavaScript, Python, React, Vue.js, Next.js, Vite, Vuetify, Quasar, Tailwind CSS, Material UI, Styled Components, shadcn/ui, Node.js, NestJS, Django, Django REST Framework, Flask, REST APIs, drf-yasg, MongoDB, and MySQL
+        \item \textbf{Testing and Quality:} Jest, Vitest, Testing Library, React Testing Library, Selenium, k6, unit, integration, E2E, performance, and smoke testing, test automation, quality gates, risk-based testing, traceability, and root cause analysis
+        \item \textbf{Architecture and Governance:} Solutions Architecture, business process modeling, Bizagi, draw.io, IAM, requirements gathering, risk management, and technical documentation
+        \item \textbf{DevOps and Management:} Git, GitHub, GitLab, Docker, Docker Compose, CI/CD, Datadog, OpenShift, Render, Jira, Trello, OpenProject, and Agile methodologies
+        \item \textbf{Languages:} Portuguese (Native), English (Advanced), Spanish (Intermediate)
     \end{itemize}
+    }
 
 % ------
 
-% !!!!!!!!!!!!!!!!!!!!!!
-% Move this section to the beginning, after the header and before
-% your experiences, if you are looking for your first
-% job or an internship. Otherwise, leave it as is.
-% !!!!!!!!!!!!!!!!!!!!!!
-
 \section{Education}
-    % Most recent education first
-    \cventry{Your University Name}{Location (e.g., Remote or State, Country)}{Your Degree Title (e.g., B.S. in Computer Science)}{Start Date - End Date (e.g., Jan 2020 - Dec 2024)}
+    \cventry{CESUPA}{Belém, Brazil}{Bachelor's Degree in Computer Science}{January 2019 -- December 2022}
 
 \end{document}
